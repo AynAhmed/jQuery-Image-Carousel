@@ -1,0 +1,42 @@
+/* Center the entire content on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  #carouselBody {
+    text-align: center;
+  }
+
+
+  #imageContainer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Style the carousel image */
+  #carouselImage {
+    max-width: 100%;
+    max-height: 400px;
+  }
+
+  #prevButton,
+  #nextButton {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  #prevButton:hover,
+  #nextButton:hover {
+    background-color: #0056b3;
+  }
