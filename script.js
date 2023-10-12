@@ -5,7 +5,7 @@ $(document).ready(function(){
     "image2.jpg",
     "image3.jpg",
     "image4.jpg",
-    "image5.jpg",
+    "image5.jpeg",
   ];
 
   var currentIndex = 0;
@@ -18,18 +18,18 @@ $(document).ready(function(){
   }
 
   $("#nextButton").click(function() {
-    currentIndex++;  
+    currentIndex++;
     if (currentIndex >= images.length) {
-      currentIndex = 0;  
+      currentIndex = 0;
     }
     updateImage();  
   });
 
 
   $("#prevButton").click(function() {
-    currentIndex--;  
+    currentIndex--;
     if (currentIndex < 0) {
-      currentIndex = images.length - 1;  
+      currentIndex = images.length - 1;
     }
     updateImage();  // Update the displayed image
   });
